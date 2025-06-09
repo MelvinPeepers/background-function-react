@@ -13,7 +13,7 @@ exports.handler = async function (event) {
     return {
       statusCode: 200,
       body: JSON.stringify({
-        message: "Background function executed successfully",
+        message: "Background function executed successfully!",
       }),
     };
   } catch (error) {
