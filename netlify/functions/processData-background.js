@@ -21,7 +21,7 @@ exports.handler = async function (event) {
     return {
       statusCode: 500,
       body: JSON.stringify({
-        message: "An error occurred during function execution",
+        message: "An error occurred during the function execution",
       }),
     };
   }
